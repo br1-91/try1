@@ -1,0 +1,8 @@
+import gp1
+#import pressure
+
+
+
+while True
+    (latitude,latNS,longitude,lonEW,status,nsatellites,altitude,grspeed) = gpsdata.read()
+    print(latitude,latNS,longitude,lonEW,status,nsatellites,altitude,grspeed)
